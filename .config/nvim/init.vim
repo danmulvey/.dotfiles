@@ -14,5 +14,13 @@ set hidden				" hide unused buffers
 set nu					" show line numbers
 set foldlevelstart=99			" start unfolded
 set scrolloff=5				" leave room between cursor and border
+set number				" show line numbers
+set autoindent				" new lines should start at current indent level
 
 syntax enable				" enable syntax highlighting
+
+" set up plugin directory
+call plug#begin('~/.config/nvim/plugged')
+
+" initialize plugin system
+call plug#end()
