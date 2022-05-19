@@ -1,4 +1,3 @@
-set nocompatible			" disable vi compatibility
 set showmatch				" show matching brackets
 set ignorecase				" case insensitive matching
 set mouse=a				    " mouse enabled in all modes
