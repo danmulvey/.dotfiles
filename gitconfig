@@ -1,0 +1,7 @@
+[user]
+    name = Daniel Mulvey
+    email = danmulvey@gmail.com
+[color]
+    ui = auto
+[init]
+    defaultBranch = main
