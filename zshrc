@@ -120,3 +120,6 @@ export NVM_DIR="$HOME/.nvm"
 export GOPATH=$HOME/go
 # add pip packages to path
 export PATH="$PATH:/home/danmulvey/.local/bin"
+# add ruby gem path
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
