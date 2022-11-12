@@ -18,8 +18,9 @@ set autoindent				" new lines should start at current indent level
 
 syntax enable				" enable syntax highlighting
 
+""" set this up later 
 " set up plugin directory
-call plug#begin('~/.config/nvim/plugged')
-
+"call plug#begin('~/.config/nvim/plugged')
+"
 " initialize plugin system
-call plug#end()
+"call plug#end()
