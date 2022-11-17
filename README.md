@@ -11,7 +11,7 @@ dotfiles are included (and working) for
 
 Run install.sh to symlink dotfiles from the repo. Use "./install.sh new" to backup existing dotfiles to .dotfiles/old first.
 
-### to do
+### todo
 
 - unify themes so that everything matches
 - update install.sh to check for existing files
