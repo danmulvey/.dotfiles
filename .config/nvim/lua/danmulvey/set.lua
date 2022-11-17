@@ -1,3 +1,4 @@
+local g = vim.g
 local opt = vim.opt
 
 opt.guicursor = ""
@@ -16,5 +17,5 @@ opt.smartindent = true
 
 opt.wrap = false
 
-vim.g.mapleader = " "
+g.mapleader = " "
 
