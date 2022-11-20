@@ -21,3 +21,5 @@ ln -sv ~/.dotfiles/.gitconfig ~
 ln -sv ~/.dotfiles/.tmux.conf ~
 ln -sv ~/.dotfiles/.zshrc ~
 ln -sv ~/.dotfiles/.config/nvim ~/.config/nvim
+ln -sv ~/.dotfiles/.config/alacritty ~/.config/alacritty
+
