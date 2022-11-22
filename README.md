@@ -6,6 +6,7 @@ dotfiles are included (and working) for
 - zsh
 - tmux
 - neovim
+- alacritty
 
 ### Installation
 
@@ -13,10 +14,10 @@ Run install.sh to symlink dotfiles from the repo. Use "./install.sh new" to back
 
 ### todo
 
-- [ ] unify themes so that everything matches
+- [x] unify themes so that everything matches
 - [ ] update install.sh to check for existing files
 - [ ] finish customizing neovim keymap and plugins
 - [ ] add plugins for zsh (autocomplete, etc)
 - [ ] consider switching to GNU stow, dotbot, or something similar for management
-- [ ] add configurations for everything else (alacritty, rtorrent, neofetch, etc)
+- [x] add config for alacritty
 
