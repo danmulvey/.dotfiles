@@ -123,9 +123,21 @@ export NVM_DIR="$HOME/.nvm"
 
 # add go to path
 export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 # add pip packages to path
 export PATH="$PATH:/home/danmulvey/.local/bin"
 # add ruby gem path
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 export PATH="$PATH:$GEM_HOME/bin"
 export PATH="$PATH:/home/danmulvey/bin"
+
+
+# Generated for pdtm. Do not edit.
+export PATH=$PATH:/home/danmulvey/.pdtm/go/bin
+
+# android sdk shit
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_NDK_HOME=$ANDROID_SDK_ROOT/ndk/25.1.8937393
