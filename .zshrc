@@ -81,7 +81,8 @@ plugins=(git
          ohmyzsh-full-autoupdate 
          zsh-autosuggestions 
          zsh-syntax-highlighting 
-         )
+         colored-man-pages
+    )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -119,6 +120,9 @@ export NVM_DIR="$HOME/.nvm"
 # load powerlevel10k theme configuration
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# remove (deprecated) git plugin alias that conflicts with go update tool
+unalias gup
 
 # add go to path
 export GOPATH=$HOME/go
